@@ -10,7 +10,7 @@
 
 int main(void) {
 	
-	PORTE.DIR = 0;                  // caly port E jako wejœcie
+	PORTE.DIR = 1;                  // caly port E jako wejœcie  bylo 0
 	PORTF.DIR = 0b11111111;         // caly port F jako wyjœcie
 	
 	uint8_t licznik = 0;            // zmienna steruj¹ca mrugaj¹cymi diodami
