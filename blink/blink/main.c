@@ -14,7 +14,7 @@ int main(void) {
 	PORTF.DIR = 0b11111111;         // caly port F jako wyjœcie
 	
 	uint8_t licznik = 0;            // zmienna steruj¹ca mrugaj¹cymi diodami
-	int test = 9;
+	int test = 6;
 
 	while(1) {
 		licznik++;
